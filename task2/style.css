@@ -1,0 +1,100 @@
+.divh1{
+    
+  width: 800px; 
+  margin: auto;
+    border-radius: 20px;
+   background-color: #74480ff7;
+color: white;
+}
+h1{text-align: center;}
+.div2{
+   
+      background-color: #74480ff7;
+color: white;
+    border: solid  #74480ff7;
+    border-radius: 20px;
+}
+.div1{
+    width: 600px;
+    height: 300px; 
+       margin: auto;
+       margin-top: 20px;
+       border: solid #74480ff7;
+border-radius: 20px;
+}
+ 
+.l2:hover,.l3:hover,.l4:hover,.l5:hover,.l6:hover,.l1:hover,.l0:hover,.sec_h2:hover{background-color:#74480ff7 ;
+color: white;}
+.paragraph{
+    background-color:wheat;
+    width: 300px;
+}
+ 
+.div0 {
+  background-color: #74480ff7;
+  border-radius: 30px;
+  height: 400px;
+  margin: 30px auto; 
+  color: white;
+}
+
+.thrd_h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-box {
+  border: 1px solid #d5e0d5;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.row {
+   margin-top: 10px ;
+    margin-bottom:10px ;
+}
+
+.row input {
+  width: 20%;
+  margin-left:180px ;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+ 
+
+.gender-row {
+  margin-top: 10px ;
+    margin-bottom:10px ;
+   margin-left: 360px;
+   margin-right: 350px;
+    
+}
+
+select {
+  width: 30%;
+  font-size: 16px;
+  
+    margin-top: 10px ;
+    margin-bottom:10px ;
+   margin-left: 320px;
+   margin-right: 300px;
+}
+
+.inner {
+  text-align: center;
+  margin: 15px 0 25px 0;
+}
+
+.btn1 {
+  background-color: rgb(201, 156, 52);
+  color: white;
+  font-size: 16px;
+  width: 120px;
+  height: 35px;
+}
+
+.btn1:hover {
+  background-color: rgb(139, 111, 0);
+}
+        

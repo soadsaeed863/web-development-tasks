@@ -1,0 +1,150 @@
+body {
+     
+    font-family: Arial, sans-serif;
+    background-color: #f9f5f0;
+    background-image: url('../task5/imgs/pexels-technobulka-2908984.jpg');  
+    background-repeat: no-repeat;  
+    background-size: cover;  
+    background-position: center;  
+}
+.header {
+    width: 80%;
+    height: 60px;
+    background-color:#f9f5f0;
+    margin: 10px 150px; 
+    border-radius: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;  
+}
+
+.header img {
+    width: 60px;
+    height: 60px;
+    margin-left: 30px;
+    float: left;
+}
+
+.links {
+    list-style: none;
+    float: none;  
+    margin: 0 auto;  
+    text-align: center;  
+    width: fit-content; 
+}
+
+.links li {
+    display: inline-block;
+    margin-left: 25px;
+    line-height: 60px;
+}
+
+.links li a {
+    color: #7b4b2a;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 5px; 
+}
+
+ .links li a:hover {
+    border-bottom: 2px solid #b76e38;
+    color: #b76e38;  
+}
+
+.links li button {
+    background-color: #f9f5f0;  
+    color: #7b4b2a;  
+    font-size: large;
+   width: 100px;
+   height: 40px;
+    border-radius: 4px;
+    border: 2px solid #7b4b2a;  
+}
+
+.links li button:hover {
+    background-color: #b76e38;  
+    color: white; 
+    border-bottom: 2px solid transparent;  
+    border: none;
+}
+.parent {
+  display: grid;
+    width: 400px;
+    margin: 0px auto;
+   margin-top: 100px;
+}
+
+.pair {
+    position: relative; 
+    width: 400px;
+    height: 200px;
+}
+
+.pair div {
+    width: 400px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;  
+}
+ 
+.div1 { background-image: url('../task5/imgs/pexels-spiritsofmilly-3913572.jpg');      border-radius: 12px;
+}
+.div3 { background-image: url('../task5/imgs/pexels-suzyhazelwood-3248644.jpg'); opacity: 0;     border-radius: 12px;
+ }
+ 
+.div2 { background-image: url('../task5/imgs/pexels-tombrand-1637455.jpg');     border-radius: 12px;
+ }
+.div4 { background-image: url('../task5/imgs/back.jpg'); opacity: 0;     border-radius: 12px;
+ }
+
+ 
+.pair:hover .div1, 
+.pair:hover .div2 {
+    opacity: 0;
+}
+
+.pair:hover .div3, 
+.pair:hover .div4 {
+    opacity: 1;
+    z-index: 3;
+}
+
+ 
+.booking {
+    background-color:  #f9f5f0;
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+    border-radius: 12px;
+    
+     
+}
+.inner {
+    margin: 20px 0px;
+}
+.booking h2 {
+    color: #7b4b2a;
+    
+}
+.booking input {
+    padding: 8px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 180px;
+}
+.booking button {
+        margin: 10px 20px;
+    height: 40px;
+  width: 150px;
+    background-color: #7b4b2a;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: large;
+     
+}
+.booking button:hover {
+    background-color: #b76e38;
+}

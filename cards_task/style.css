@@ -1,0 +1,122 @@
+
+*{
+    margin: 0;
+  padding: 0;
+      box-sizing: border-box;
+}
+body {
+  perspective: 800px;
+  background-color: rgb(255, 217, 226);
+}
+.grid {
+  width: 90%;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.card {
+  width: 22%;
+  margin: 1%;
+  height: 300px;
+  position: relative;
+  transition: transform 1s;
+    transform-style: preserve-3d;
+
+}
+
+.card:hover {
+  transform: rotateY(180deg);
+      border-radius: 10px;
+
+}
+
+.front, .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+      border-radius: 10px;
+
+}
+
+.front {
+  background-size: cover;
+  background-position: center;
+      border-radius: 10px;
+
+}
+
+.back {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  transform: rotateY(180deg);
+  font-family: 'Poppins', sans-serif;  
+}
+.back h3 {
+  margin: 8px 0;
+  font-size: 20px;
+}
+.back p {
+  margin: 5px 0;
+  font-size: 18px;
+}
+ .price {
+  background: rgb(255, 121, 154);
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 6px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  display: inline-block;
+}
+ 
+.brand-title {
+  height: 160px;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;      
+  text-align: center;
+  background-image:url("../firstproject/images/beautinow-niche-perfume-aEl6VSliO8M-unsplash.jpg");
+    background-size: cover;
+  background-position: center;
+
+}
+
+.brand-title h1 {
+  font-size: 72px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin: 0;
+
+  background: linear-gradient(90deg, #ea3364, #ec48cb);
+  background-clip: text;       
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Poppins', sans-serif;
+}
+
+.brand-title p {
+  font-size: 22px;
+  margin-top: 5px;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+}
+
+.bg1{background-image:url("../task9/images/12_2ha831wwgm1vpwdv.webp");}
+.bg2{background-image:url("../task9/images/17_nem21d8rimzreyan.webp");}
+.bg3{background-image:url("../task9/images/22_s2z6gg13ajigckux_1.webp");}
+.bg4{background-image:url("../task9/images/3_qite9uauhjyvkh0w.webp");}
+.bg5{background-image:url("../task9/images/45_btok6bzmuvony0uj.webp");}
+.bg6{background-image:url("../task9/images/54_nybywrlrg5c5gmik.webp");}
+.bg7{background-image:url("../task9/images/63_fxr3ctetj5n05rsj.webp");}
+.bg8{background-image:url("../task9/images/65-2_xvbt95d49ol9gcop_1.webp");}
