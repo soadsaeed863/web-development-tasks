@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  color: #1c1c1c;
+}
+::selection {
+  background: #1e2fb8;
+  color: #ffffff;
+}
+.hero {
+  min-height: 100vh;
+  width: 100%;
+  background-image:
+    linear-gradient(rgba(20, 15, 10, 0.15), rgba(20, 15, 10, 0.15)),
+    url('https://images.unsplash.com/photo-1546953304-5d96f43c2e94?fm=jpg&q=70&w=2400&auto=format&fit=crop');
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed; 
+  padding: 24px 40px 60px;
+}
+ 
+.navbar {
+  position: fixed;      /* السطر الجديد اللي بيثبتها */
+  top: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 80px);
+  max-width: 1030px;
+  z-index: 100;          /* عشان تفضل فوق الكروت */
+  background: rgba(255, 255, 255, 0.97);
+  border-radius: 14px;
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-icon {
+  flex-shrink: 0;
+}
+
+.logo-text {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 26px;
+  color: #2c2c2c;
+}
+
+.nav-links {
+  display: flex;
+  gap: 34px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #2c2c2c;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 17px;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover
+{
+  color: #f5a623;
+}
+
+ 
+.cards {
+  margin: 150px 90px 90px;    
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.96);
+  border-radius: 10px;
+  padding: 34px 26px 30px;
+  text-align: center;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.22);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-icon {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 22px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  flex-shrink: 0;
+}
+
+.card-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card h2 {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 24px;
+  margin-bottom: 18px;
+  color: #1c1c1c;
+}
+
+.card p {
+  font-size: 15px;
+  line-height: 1.9;
+  color: #2c2c2c;
+  margin-bottom: 26px;
+  flex-grow: 1;
+}
+
+.card p mark {
+  background: #ffe600;
+  font-weight: bold;
+  padding: 0 2px;
+}
+
+.underlined {
+  text-decoration: overline;
+}
+
+.btn {
+  background: #1e2fb8;
+  color: #fff;
+  border: none;
+  padding: 14px 30px;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.btn:hover {
+  background: #f5a623;
+}
+
+ 
+@media (max-width: 900px) {
+  .cards {
+    grid-template-columns: 1fr;
+    margin-top: 50px;
+  }
+  .navbar {
+    flex-direction: column;
+    gap: 14px;
+  }
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+}
