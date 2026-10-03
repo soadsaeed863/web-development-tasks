@@ -1,0 +1,104 @@
+ body{
+    background-color: rgb(249, 224, 233);
+    overflow:auto;
+ }
+ .address{
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    width: 300px;
+    border-radius:10px;
+font-family: cursive;
+height: 70px;
+}
+.address:hover{
+        color: rgb(245, 33, 111);
+  }
+h1{
+   margin-top: auto;
+}
+.div1 ,.div2,.div3{
+  width: 400px;
+  height: 700px;
+  background-color: white;
+   float: left;
+  margin: 100px 40px;
+  border-radius: 30px;
+}
+ .img1{
+      background-image: url(../task4/imgs/7.jpg);
+ }
+ .img2{
+      background-image: url(../task4/imgs/6.jpg);
+ }
+ .img3{
+      background-image: url(../task4/imgs/5.jpg);
+ }
+  
+ .img1,.img2,.img3{
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  border-radius: 30px;
+  border: 10px solid transparent;
+  margin: auto;
+ }
+.explain1,.explain2,.explain3{
+  text-align: center;
+  margin:10px 0px;
+  font-size: large;
+word-spacing: 3px;
+line-height: 30px;
+letter-spacing: 1px;
+}
+h3:hover{
+color:rgb(245, 33, 111) ;
+}
+button{
+  background-color: rgb(246, 181, 205);
+  width: 100px;
+  height: 40px;
+  margin:  50px 40px;
+  border-radius: 30px;
+  font-size: large;
+  font-style:oblique;
+  font-family: cursive;
+  border: 0px;
+}
+button:hover{
+  background-color: rgb(245, 33, 111);
+  color: white;
+}
+ .pro1:hover,.pro2:hover,.pro3:hover{
+color: rgb(245, 33, 111)  ;
+ }
+.pictures{
+  background-image: url(../task4/imgs/b.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  border-radius: 30px;
+  height: 500px;
+ margin-top: 50px;
+}
+.pic1{
+    background-image: url(../task4/imgs/3.jpg);
+}  
+.pic2{
+    background-image: url(../task4/imgs/4.jpg);
+    
+}
+ 
+.pic1,.pic2{
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin: 130px 230px;
+  float: left;
+}
+.pic1:hover,.pic2:hover{
+  border-radius: 0%;
+}
+ 
