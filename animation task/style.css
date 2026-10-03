@@ -1,0 +1,63 @@
+  
+body {
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+.square {
+  width: 70px;
+  height: 70px;
+  background-color: rgb(34, 46, 104);
+  position: absolute;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;  
+}
+ 
+#left1 {
+     top: 150px;
+     left: 0;
+      animation-name: moveRight;
+       animation-delay: 3s;
+     }
+#left2 { 
+    top: 350px;
+     left: 0; 
+     animation-name: moveRight;
+      animation-delay: 9s;
+     }
+#left3 { 
+    top: 550px;
+     left: 0;
+      animation-name: moveRight;
+       animation-delay: 15s;
+     }
+
+ 
+#right1 {
+     top: 50px;
+     right: 0; 
+     animation-name: moveLeft;
+      animation-delay: 0s; 
+    }
+#right2 { 
+    top: 250px;
+     right: 0;
+      animation-name: moveLeft;
+       animation-delay: 6s;
+     }
+#right3 {
+     top: 450px; 
+     right: 0;
+      animation-name: moveLeft;
+       animation-delay: 12s;
+     }
+ 
+@keyframes moveRight {
+   100% { left: 1466px; }  
+}
+
+@keyframes moveLeft {
+ 
+  100% { right: 1466px;   } 
+}
